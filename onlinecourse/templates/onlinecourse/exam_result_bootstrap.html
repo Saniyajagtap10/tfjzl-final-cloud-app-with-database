@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exam Result</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h2>Exam Result</h2>
+        <div class="alert alert-success">
+            <h4>Congratulations!</h4>
+            <p>Your Total Score: <strong>{{ grade }}</strong></p>
+        </div>
+        <a href="{% url 'onlinecourse:popular_course_list' %}" class="btn btn-primary">Back to Courses</a>
+    </div>
+</body>
+</html>
